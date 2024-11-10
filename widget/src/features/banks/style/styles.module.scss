@@ -1,0 +1,34 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--space-2xl);
+    width: 100%;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: var(--space-m);
+    row-gap: var(--space-m);
+}
+
+.card {
+    --control-radius: var(--graphics-size-s);
+    background: var(--color-bg-default);
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--space-m);
+}
+
+.img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.card-wrapper {
+    display: flex;
+    align-items: flex-start;
+    column-gap: var(--space-m);
+}
